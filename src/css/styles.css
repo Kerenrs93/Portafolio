@@ -1,0 +1,37 @@
+body {
+  font-family: "Playfair Display", serif;
+  /* background-color: rgba(177, 175, 175, 0.5); */
+  background-image: url("https://cdn.pixabay.com/photo/2019/07/12/18/48/code-4333398_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.contenedor {
+}
+
+.navbarColor {
+  background-color: rgb(79, 56, 184);
+}
+
+.principal {
+  height: 550px;
+}
+.cuadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cuadro2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgCentral {
+  width: 300px;
+  border-radius: 20px;
+}
