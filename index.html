@@ -14,173 +14,228 @@
     <title>Keren Rodriguez - Portafolio</title>
 </head>
 <body>
-    <header class="m-1">
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark navbarColor">
-            <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i> Keren Rodriguez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Proyectos <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/Kerenrs93" target="_blank">GitHub</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-        </nav> -->
+    <header class="m-1 mx-2">
         <div class="row">
             <div class="col-md-2">
                 <div class="">
                     <img class="imgCentral" src="src/img/Keren.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-10 bg-dark text-white">
-                <div class="row mb-3">
+            <div class="col-md-10 dark text-white">
+                <div class="row m-3">
                     <div class="col-auto mr-auto">
-                        <h1>Keren Rodríguez</h1>
+                        <p>Keren Rodríguez</p>
                     </div>
                     
-                    <div class="col-auto m-2">
-                        <button class="btn btn-info">
+                    <div class="col-auto">
+                        <button class="btn btn-info btn-sm">
                             <i class="fas fa-download"> Descargar CV</i>
                         </button>
                     </div>
                     
                 </div>
-                <div class="row mb-3">
+                <div class="row pl-4">
                     <div class="col-auto mr-auto">
-                        <h3><i class="fas fa-laptop-code"></i> Web Developer</h3>
+                        <p><i class="fas fa-laptop-code"></i> Web Developer</p>
                     </div>
                     
                 </div>
                 <div class="row">
-                    <div class="col-md-3 bg-success p-3 text-center">
+                    <div class="col bg-success  text-center">
                         <div>
                             <i class="fad fa-folder-open fa-2x"></i>
                         </div>
                         <a class="text-decoration-none text-white" href="#">Mis Proyectos <span class="sr-only">(current)</span></a>
                     </div>
-                    <div class="col-md-3  bg-primary p-3 text-center">
+                    <div class="col  bg-primary  text-center">
                         <div class="">
                             <i class="fab fa-github fa-2x"></i>
                         </div>                                
                         <a class="text-decoration-none text-white" href="https://github.com/Kerenrs93" target="_blank">GitHub</a>
                     </div>
-                    <div class="col-md-3 bg-danger p-3 text-center">
+                    <div class="col bg-danger  text-center">
                         <div>
                             <i class="fas fa-map-marker-alt fa-2x"></i>
                         </div>
                         <a class="text-decoration-none text-white" href="#">Contactos</a>
                     </div>
-                    <div class="col-md-3 navbarColor p-3 text-center">
+                    <div class="col navbarColor  text-center">
                         <div>
                             <i class="fas fa-user fa-2x"></i>
                         </div>
                         <a class="text-decoration-none text-white" href="">Informacion Personal</a>
+                    </div>
+                    <div class="col bg-secondary  text-center">
+                        <div>
+                            <i class="fas fa-user-cog fa-2x"></i>
+                        </div>
+                        <a class="text-decoration-none text-white" href="">Habilidades</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- <div class="container ">
-        <div class="row principal">
-            <div class="col cuadro">
-                <h1>Keren Rodríguez</h1>
-                <h3>Web Developer</h3>
-                <button class="btn btn-info">
-                    <i class="fas fa-download"> Descargar CV</i>
-                    </button>
+    <div class="secundario mt-4">
+        <div class="row mx-2">
+            <div class="col-md-3 perfil">
+                <h3 class="pt-3 ">Información Personal</h2>
+                   <P>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, vel ad consectetur repellendus harum recusandae delectus facere suscipit unde obcaecati impedit molestias, nostrum ipsam. At eligendi amet doloribus id alias.
+                   </P> 
+
+                 <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Nombre:</td>
+                            <td> Keren Rodriguez Soto</td>
+                        </tr>
+                        <tr>
+                            <td>Estudios:</td>
+                            <td>
+                                Bachillerato, Ingeniería Informática,
+                                UNED, 2020 - actualidad.
+                                <br>
+                                Diplomado, Tecnologias de la
+                                Información. Colegio Universitario
+                                de Cartago 2016-2019.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> 
             </div>
-            <div class="col cuadro2 justify-content-center">
-                <img class="imgCentral" src="src/img/Keren.jpg" alt="">
+            <div class="col-md-9">
+                <div class="row justify-content-center">
+                    <h3 class="pt-3">Mis Proyectos</h2>
+                </div>
+                <div class="row proyectos">
+                    <div class="card mt-3" style="width: 18rem;" onmouseover="mostrarDiv(this)" onmouseout="deleteClass(this)">
+                        <img src="./src/img/BlackJack.PNG" class="card-img-top" alt="..." >
+                        <p class="text-center">BlackJack</p>
+                        <div class="justify-content-center">
+                            <a href=" https://kerenrs93.github.io/21/index.html" target="_blank" class=" btn-primary btn-sm">Jugar</a>
+                            <a href="https://github.com/Kerenrs93/21" class=" btn-primary btn-sm">Código fuente</a>
+                        </div>
+                        <div class="emergente detalles" id="">
+                            <p>Juego de BlackJack. Es un proyecto que simula el juego de cartas del BlackJack</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 " style="width: 18rem;" onmouseover="mostrarDiv(this)" onmouseout="deleteClass(this)">
+                        <img src="./src/img/pokedex.PNG" class="card-img-top" alt="...">
+                        <p class="text-center">Pokedex</p>
+                        <div class="justify-content-center">
+                            <a href="https://kerenrs93.github.io/pokedex/index.html" target="_blank" class=" btn-primary btn-sm">Pokedex</a>
+                            <a href="https://github.com/Kerenrs93/pokedex" class=" btn-primary btn-sm">Código fuente</a>
+                        </div>
+                        <div class="emergente detalles" id="">
+                            <p class="card-text">Pokedex. Este proyecto muestra los datos importantes de algunos pokemones</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3" style="width: 18rem;" onmouseover="mostrarDiv(this)" onmouseout="deleteClass(this)">
+                        <img src="./src/img/Bateria.PNG" class="card-img-top" alt="...">
+                        <p class="text-center">Bateria</p>
+                        <div class="justify-content-center">
+                            <a href="https://kerenrs93.github.io/bateria/index.html" target="_blank" class=" btn-primary btn-sm">Tocar la bateria</a>
+                            <a href="https://github.com/Kerenrs93/bateria" class=" btn-primary btn-sm">Código fuente</a>
+                        </div>
+                        <div class="emergente detalles" id="">
+                            <p class="card-text">Bateria. Es un proyecto que simula los sonidos de una bateria al tocar una tecla de la
+                            computadora.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3" style="width: 18rem;" onmouseover="mostrarDiv(this)" onmouseout="deleteClass(this)">
+                        <img src="./src/img/Clima.PNG" class="card-img-top" alt="...">
+                        <p class="text-center">Clima</p>
+                        <div class="justify-content-center">
+                            <a href="https://github.com/Kerenrs93/appClima" target="_blank" class=" btn-primary btn-sm">Pronóstico del tiempo</a>
+                            <a href="https://kerenrs93.github.io/appClima/index.html" class=" btn-primary btn-sm">Código fuente</a>
+                        </div>
+                        <div class="emergente detalles" id="">
+                            <p class="card-text">Es un proyecto que muestra los datos del clima dependiendo de la ciudad que se ingresa</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3" style="width: 18rem;" onmouseover="mostrarDiv(this)" onmouseout="deleteClass(this)">
+                        <img src="./src/img/peliculas.PNG" class="card-img-top" alt="...">
+                        <p class="text-center">Películas</p>
+                        <div class="justify-content-center">
+                            <a href="https://kerenrs93.github.io/21/index.html" target="_blank" class=" btn-primary btn-sm">Ver Películas</a>
+                            <a href="https://github.com/Kerenrs93/21" class=" btn-primary btn-sm">Código fuente</a>
+                        </div>
+                        <div class="emergente detalles" id="">
+                            <p class="card-text">Muestra las películas que coincidan con el parámetro de búsqueda</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3" style="width: 18rem;" onmouseover="mostrarDiv(this)" onmouseout="deleteClass(this)">
+                        <img src="./src/img/vidriera.PNG" class="card-img-top" alt="...">
+                        <p class="text-center">Vidriera</p>
+                        <div class="justify-content-center">
+                            <a href="https://kerenrs93.github.io/bateria/index.html" target="_blank" class=" btn-primary btn-sm">Ver información</a>
+                            <a href="https://github.com/Kerenrs93/bateria" class=" btn-primary btn-sm">Código fuente</a>
+                        </div>
+                        <div class="emergente detalles" id="">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptate quos similique cum explicabo in odit eligendi laboriosam iusto amet. Labore laborum cupiditate cum ad cumque enim sint! Quisquam, eaque?.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </div>
+    <div class="contact" >
+        <div class="row ml-2">
+            <div class="col-md-3" style="background-color:#5bb7df">
+                <div class="row justify-content-center">
+                    <h3 class="pt-3">Contactos</h2>
+                </div>
+                <div class="row">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td><i class="fab fa-linkedin-in fa-2x"></i></td>
+                                <td><a href="https://www.linkedin.com/in/keren-rodriguez/" target="_blank">Linkedin</a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="far fa-envelope fa-2x"></i></td>
+                                <td><p>kerenrodriguez2011@hotmail.com</p></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-phone-square-alt fa-2x"></i></td>
+                                <td><p>8648-9307</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col" >
+                <div class="row justify-content-center">
+                    <h3 class="pt-3">Habilidades</h2>
+                </div>
+                <div class="row ml-2 mt-3">
+                    <div class="col phpLogo" >
+                        <i class="fab fa-php fa-4x " ></i>
+                    </div>
+                    <div class="col html5Logo"><i class="fab fa-html5 fa-4x"></i></div>
+                    <div class="col cssLogo"><i class="fab fa-css3-alt fa-4x"></i></div>
+                    <div class="col "><i class="fab fa-js fa-4x jsLogo"></i></div>
+                    <div class="col bootstrapLogo"><i class="fab fa-bootstrap fa-4x"></i></div>
+                    <div class="col gitLogo"><i class="fab fa-git fa-4x"></i></div>
+                    <div class="col bdLogo"><i class="fas fa-database fa-4x"></i></div>
+                </div>
+
             </div>
         </div>
-    </div> -->
-
-    <div class="secundario">
-            <div class="row proyectos">
-                <div class="col-md-8">
-                    <h3 class="pt-3">Mis Proyectos</h2>
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img src="./src/img/BlackJack.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">BlackJack</h5>
-                            <p class="card-text">Juego de BlackJack. Es un proyecto que simula el juego de cartas del BlackJack</p>
-                            <a href=" https://kerenrs93.github.io/21/index.html" target="_blank" class="btn btn-primary">Jugar</a>
-                            <a href="https://github.com/Kerenrs93/21" class="btn btn-primary">Ver el código fuente</a>
-                        </div>
-                    </div>
-
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img src="./src/img/pokedex.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Pokedex</h5>
-                            <p class="card-text">Pokedex. Este proyecto muestra los datos importantes de algunos pokemones</p>
-                            <a href="https://kerenrs93.github.io/pokedex/index.html" class="btn btn-primary">Ver Pokedex<a>
-                                    <a href="https://github.com/Kerenrs93/pokedex" class="btn btn-primary">Ver el código fuente</a>
-                        </div>
-                    </div>
-
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img src="./src/img/Bateria.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Bateria</h5>
-                            <p class="card-text">Bateria. Es un proyecto que simula los sonidos de una bateria al tocar una tecla de la
-                                computadora.</p>
-                            <a href="https://kerenrs93.github.io/bateria/index.html" class="btn btn-primary">Tocar la bateria</a>
-                            <a href="https://github.com/Kerenrs93/bateria" class="btn btn-primary">Ver el código fuente</a>
-                        </div>
-                    </div>
-
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img src="./src/img/Clima.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">App del clima</h5>
-                            <p class="card-text">Es un proyecto que muestra los datos del clima dependiendo de la ciudad que se ingresa</p>
-                            <a href="https://github.com/Kerenrs93/appClima" class="btn btn-primary">Jugar</a>
-                            <a href="https://kerenrs93.github.io/appClima/index.html" class="btn btn-primary">Ver el código fuente</a>
-                        </div>
-                    </div>
-
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img src="./src/img/BlackJack.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">BlackJack</h5>
-                            <p class="card-text">Juego de BlackJack. Es un proyecto que simula el juego de cartas del BlackJack</p>
-                            <a href=" https://kerenrs93.github.io/21/index.html" class="btn btn-primary">Jugar</a>
-                            <a href="https://github.com/Kerenrs93/21" class="btn btn-primary">Ver el código fuente</a>
-                        </div>
-                    </div>
-
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img src="./src/img/BlackJack.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">BlackJack</h5>
-                            <p class="card-text">Juego de BlackJack. Es un proyecto que simula el juego de cartas del BlackJack</p>
-                            <a href=" https://kerenrs93.github.io/21/index.html" class="btn btn-primary">Jugar</a>
-                            <a href="https://github.com/Kerenrs93/21" class="btn btn-primary">Ver el código fuente</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="pt-3">Información Personal</h2>
-                </div>
-
-                
-            </div>
-
-
     </div>
 
 </body>
+    <footer class="dark">
+        <div>
+            probando
+        </div>
+    </footer>
     <script src="src/js/jquery-3.5.1.slim.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/app.js"></script>
