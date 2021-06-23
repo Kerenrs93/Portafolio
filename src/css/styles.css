@@ -1,15 +1,43 @@
 body {
-  font-family: "Playfair Display", serif;
+  margin: 0;
+  /* font-family: "Playfair Display", serif; */
+  overflow-x: hidden;
 }
 
 .perfil {
-  background-image: url("https://cdn.pixabay.com/photo/2019/07/12/18/48/code-4333398_960_720.jpg");
-  background-repeat: no-repeat;
+  background-color: #eee;
 }
 
+.dark {
+  background-color: #222;
+}
 .navbarColor {
   background-color: #dfae0c;
   color: white;
+}
+
+.emergente {
+  display: none;
+}
+.mostrar {
+  color: white;
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translateY(-50%) !important;
+  width: 200%;
+  background-color: #080f28;
+  overflow: hidden;
+  padding: 1rem;
+  z-index: 10;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1rem;
+  pointer-events: none;
+  max-width: 345px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .principal {
@@ -29,7 +57,7 @@ body {
 }
 .imgCentral {
   width: 210px;
-  height: 220px;
+  /* height: 220px; */
 }
 
 .proyectos {
@@ -37,13 +65,39 @@ body {
   justify-content: space-around;
 }
 
-.secundario {
-  /* background-color: rgb(209, 209, 209); */
-  /* text-align: center; */
+.phpLogo {
+  background-color: #8993be;
+  color: #000000;
+}
+.html5Logo {
+  background-color: #fffefe;
+  color: #f06529;
+}
+.cssLogo {
+  background-color: #fffefe;
+  color: #2965f1;
+}
+.jsLogo {
+  background-color: black;
+  color: #f0db4f;
+}
+.bootstrapLogo {
+  background-color: #fffefe;
+  color: #563d7c;
+}
+
+.gitLogo {
+  color: #f34f29;
+}
+.bdLogo {
+  color: #00758f;
 }
 
 @media (max-width: 740px) {
   .imgCentral {
     width: 100%;
+  }
+  header {
+    display: none;
   }
 }
